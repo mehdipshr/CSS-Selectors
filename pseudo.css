@@ -1,0 +1,44 @@
+[data-red="true"]{ /*agar value ke dar div date-red ke be div dadim ba value inja barabr bashe dastorat ejra mishan  */
+    background-color: brown;
+}
+
+[data-red^="12"]{ /*agar value ba horof aval value dade shode be data-red barabar bashe dastor ejra mishe */
+    background-color: rgb(165, 108, 42);
+}
+
+[data-red$="34"]{ /* agar value dade shode ba 34 tamom beshe in dastor ejra mishe */
+    background-color: rgb(165, 153, 42);
+}
+
+[data-red*="34"]{ /* agar value dade shode daronesh 34 ya value ke inja midim bashe in dastor ejra mishe */
+    background-color: rgb(165, 153, 42);
+}
+
+
+li:hover{
+    background-color: red;
+}
+input:focus{
+    background-color: red;
+}
+input:required{
+    background-color: red;
+}
+
+input:checked{
+    margin: 20px;
+}
+
+li:first-child{
+    background-color: rgb(255, 0, 191);
+}
+li:last-child{
+    background-color: rgb(255, 0, 191);
+}
+li:nth-child(3){
+    background-color:rgb(46, 156, 101) ;
+}
+
+li:nth-child(2n){
+    background-color:rgb(46, 87, 156) ;
+}
